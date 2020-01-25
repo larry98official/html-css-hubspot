@@ -202,7 +202,7 @@ h1 {
 }
 
 .stack-second {
-    max-width: 800px;
+    max-width: 880px;
     margin: 0 auto;
 }
 
@@ -210,7 +210,7 @@ h1 {
     max-width: 260px;
 }
 
-h2 {
+#title {
     padding-bottom: 36px;
     font-size: 32px;
 }
@@ -244,7 +244,7 @@ h2 {
     background-color: #FF7A59;
     padding: 12px 24px;
     border: none;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .crm-second {
@@ -254,13 +254,11 @@ h2 {
 
 h4 {
     font-size: 22px;
+    text-align: center;
+    padding: 11px 0;
 }
 
-.crm-title {
-    padding-bottom: 11px;
-}
-
-.crm-text {
+.middle-text {
     font-size: 14px;
     padding: 3px 0 14px 0;
 }
@@ -278,22 +276,6 @@ h4 {
     border-bottom: 1px solid #e0e6ed;
     width: 36%;
     right: 226px;
-}
-
-.crm-list {
-    font-size: 13px;
-}
-
-#crm-list-1 {
-    padding-right: 0 20px 5px 0;
-}
-
-#crm-list-2 {
-    padding: 0 20px 5px 0;
-}
-
-#crm-list-3 {
-    padding: 0 0 5px;
 }
 
 .crm-second ul li::before {
@@ -360,4 +342,136 @@ h4 {
     display: inline-block;
     margin-bottom: -5px;
     margin-right: 10px;
+}
+
+.middle-txt {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 26px;
+    border-top: 1px solid #e0e6ed;
+    margin: 12px 0 15px 0;
+}
+
+.crm-list {
+    font-size: 13px;
+    padding: 0 20px 5px 0;
+}
+
+.crm-list-3 {
+    font-size: 13px;
+    padding: 0 0 5px;
+}
+
+.middle-button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.board {
+    height: 880px;
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    padding: 130px 0;
+}
+
+.page {
+    max-width: 1080px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 102.5px;
+    padding: 0 32px;
+}
+
+#scritta {
+    font-size: 32px;
+    padding: 0 120px;
+}
+
+#paragrafo {
+    padding: 16px 120px 0;
+}
+
+.page-home {
+    margin-top: 80px;
+    max-width: 1080px;
+}
+
+.card {
+    width: 25%;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 30px;
+}
+
+.card:nth-child(n+5) {
+    border-bottom: 0;
+}
+
+.card:nth-child(4n) {
+    border-right: 0;
+}
+
+.card-icon {
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.card-title::after {
+    content: '+';
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-text {
+    font-size: 14.5px;
+}
+
+.sponsor {
+    height: 285px;
+    padding-top: 100px;
+}
+
+.sponsor-table {
+    width: 80%;
+    height: 185px;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.sponsor-first {
+    width: 32%;
+    padding: 20px 40px 20px 20px;
+    float: left;
+}
+
+.sponsor-second {
+    width: 68%;
+    float: left;
+}
+
+.sponsor-logo {
+    width: 17%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.sponsor-title {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.sponsor-text {
+    font-size: 19.2px;
 }
