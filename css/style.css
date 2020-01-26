@@ -455,11 +455,6 @@ h4 {
     float: left;
 }
 
-.sponsor-second {
-    width: 68%;
-    float: left;
-}
-
 .sponsor-logo {
     width: 17%;
     float: left;
@@ -474,4 +469,59 @@ h4 {
 
 .sponsor-text {
     font-size: 19.2px;
+}
+
+.case {
+    height: 664px;
+    padding: 120px 0;
+}
+
+.case-page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.case-block {
+    align-items: center;
+    margin: 0;
+}
+
+.case-first {
+    width: 53%;
+    float: left;
+}
+
+.case-third {
+    width: 40%;
+    float: right;
+    background-color: black;
+}
+
+.case-title {
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.case-text {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.case-second {
+    margin: 32px 0 24px;
+}
+
+#case-small {
+    font-size: 18px;
+    margin: 24px auto;
+}
+
+#case-button {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #FF7A59;
+    padding: 24px 48px;
+    border: none;
+    border-radius: 3px;
 }
